@@ -19,7 +19,7 @@ body {
 
 input,
 output {
-  width: 100%;
+  width: 50%;
   padding: 10px;
   margin: 10px 0;
   border: 1px solid #ccc;
@@ -65,4 +65,9 @@ button:hover {
     font-size: 14px;
     padding: 8px;
   }
+}
+.iznosi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
